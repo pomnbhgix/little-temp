@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkej8rjp73hk1"]
+
+[ext_resource type="PackedScene" uid="uid://ccg3bj40cs7o1" path="res://arts/UnityChan/unitychan.tscn" id="1_8evui"]
+
+[node name="Unitychan" instance=ExtResource("1_8evui")]
+
+[node name="head_back" parent="RootNode/Character1_Reference/GeneralSkeleton" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.21614e-07, 1.54972e-06, -2.82191e-07)
+
+[node name="eye_base_old" parent="RootNode/Character1_Reference/GeneralSkeleton" index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.21614e-07, 1.54972e-06, -2.82191e-07)
+
+[node name="eye_L_old" parent="RootNode/Character1_Reference/GeneralSkeleton" index="2"]
+transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, -8.21614e-07, 1.54972e-06, -2.82191e-07)
+
+[node name="eye_R_old" parent="RootNode/Character1_Reference/GeneralSkeleton" index="3"]
+transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, -8.21614e-07, 1.54972e-06, -2.82191e-07)
+
+[node name="MTH_DEF" parent="RootNode/Character1_Reference/GeneralSkeleton" index="4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.42038e-08, 1.54972e-06, -8.19564e-08)
+
+[node name="EYE_DEF" parent="RootNode/Character1_Reference/GeneralSkeleton" index="5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.42038e-08, 1.54972e-06, -8.19564e-08)
+
+[node name="EL_DEF" parent="RootNode/Character1_Reference/GeneralSkeleton" index="6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.42038e-08, 1.54972e-06, -8.19564e-08)
+
+[node name="BLW_DEF" parent="RootNode/Character1_Reference/GeneralSkeleton" index="7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.42038e-08, 1.54972e-06, -8.19564e-08)
